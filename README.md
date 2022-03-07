@@ -3,7 +3,7 @@
 ### **Backend**
 
 - ✅Deploy with Remix IDE and verify on RinkebyScan
-- Complete Testing locally
+- Complete esting locally
 - Deploy with hardhat
 
 =============
