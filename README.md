@@ -1,10 +1,10 @@
 ## **NFT Minting dApp**
 
-### **Backend**
+### **Blockchain**
 
-- ✅Deploy with Remix IDE and verify it on RinkebyScan
-- Complete test locally
-- Deploy with Hardhat
+-   ✅Deploy with Remix IDE and verify it on RinkebyScan
+-   Complete test locally
+-   Deploy with Hardhat
 
 =============
 
