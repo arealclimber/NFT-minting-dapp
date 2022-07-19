@@ -15,7 +15,7 @@ const Header = () => {
 			label: 'Opensea',
 			path: 'https://testnets.opensea.io/collection/the-dog-fam',
 		},
-		{ label: 'Rarible', path: 'https://testnet.rarible.com/' },
+		// { label: 'Rarible', path: 'https://testnet.rarible.com/' },
 		{ label: 'Discord', path: 'https://discord.com/' },
 		{ label: 'Twitter', path: 'https://twitter.com/' },
 	];
