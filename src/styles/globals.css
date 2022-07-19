@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Edu+QLD+Beginner:wght@500&family=Fredoka+One&family=M+PLUS+Rounded+1c:wght@300&family=Rubik&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: 'Fredoka One';
+
+		@apply max-w-2xl mx-auto px-4;
+		@apply dark:bg-red-900;
+	}
+}
