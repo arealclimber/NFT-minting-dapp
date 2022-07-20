@@ -4,7 +4,9 @@ import Connector from '../components/Connector';
 const Mint = () => {
 	return (
 		<section className="mt-16 flex flex-col justify-center">
-			<Connector />
+			<div className="flex justify-center mb-10 mx-5">
+				<Connector />
+			</div>
 
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-7xl font-bold font-forHeading">
@@ -17,7 +19,7 @@ const Mint = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center">
-				<Button className="text-5xl px-10 py-5 bg-blue-900 text-white mt-20">
+				<Button className="text-5xl px-20 py-5 bg-blue-900 text-white mt-20">
 					Mint
 				</Button>
 			</div>
