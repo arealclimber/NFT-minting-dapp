@@ -4,7 +4,8 @@ const Mint = () => {
 	return (
 		<section className="mt-16 flex flex-col item-center justify-center">
 			<h1 className="text-7xl font-bold font-forHeading">
-				Mint Your <span className="dark:text-red-300 text-red-900">NFT</span>
+				Mint Your{' '}
+				<span className="dark:text-blue-200 text-red-900">NFT</span>
 			</h1>
 			<h3 className="text-4xl my-3">On Rinkeby Testnet</h3>
 			<p className="text-gray-600 mb-8">
