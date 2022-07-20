@@ -1,5 +1,22 @@
 ## **NFT Minting dApp**
 
+## Tech Stack
+
+### Frontend
+
+-   Next.js
+-   TailwindCSS
+-   Rainbow kit
+    -   wagmi
+-   ethers.js
+
+### Blockchain
+
+-   Hardhat
+-   ERC721A
+
+## To-do
+
 ### **Frontend**
 
 -   [x] Deployment
