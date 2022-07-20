@@ -65,7 +65,7 @@ const Mint = () => {
 					<span className="dark:text-blue-200 text-red-900">NFT</span>
 				</h1>
 				<h3 className="text-4xl my-3">On Rinkeby Testnet</h3>
-				<p className="text-gray-600 mb-8">Demo project</p>
+				<p className="text-gray-600 mb-8">0.01Ξ each</p>
 			</div>
 			<div className="flex flex-col items-center justify-center">
 				<p className="text-2xl my-3">
@@ -85,12 +85,12 @@ const Mint = () => {
 				)}
 
 				{isMinted ? (
-					<div className="text-lg">
-						<p className="dark:text-green-500 text-green-800">
+					<div className="">
+						<p className="text-2xl pt-5 dark:text-green-500 text-green-800">
 							Success!
 						</p>
 
-						<p>
+						<p className="text-2xl pt-5">
 							View on{' '}
 							<a
 								href={`https://rinkeby.etherscan.io/tx/${mintData?.hash}`}
@@ -99,11 +99,24 @@ const Mint = () => {
 								Rinkeby Scan
 							</a>
 						</p>
+						<p className="text-2xl pt-5">
+							View on{' '}
+							<a
+								href={`https://testnets.opensea.io/assets/rinkeby/0x38a91753a4064d926074907bb5671f03afc4539c/${
+									totalMinted - 1
+								}`}
+								className="hover:text-blue-500"
+							>
+								Opensea
+							</a>
+						</p>
 					</div>
 				) : isMintStarted ? (
-					<p className="dark:text-green-500 text-green-800">Minting...</p>
+					<p className="text-2xl pt-5 dark:text-green-500 text-green-800">
+						Minting...
+					</p>
 				) : isMintLoading ? (
-					<p className="dark:text-green-500 text-green-800">
+					<p className="text-2xl pt-5 dark:text-green-500 text-green-800">
 						Waiting for approval
 					</p>
 				) : (
