@@ -1,12 +1,10 @@
 import Button from '../components/Button';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Connector from '../components/Connector';
 
 const Mint = () => {
 	return (
 		<section className="mt-16 flex flex-col justify-center">
-			<div className="flex justify-center mb-10 mx-5">
-				<ConnectButton />
-			</div>
+			<Connector />
 
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-7xl font-bold font-forHeading">
