@@ -2,9 +2,7 @@
 
 ### **Frontend**
 
--   [ ]
-
-=============
+-   [x] Deployment
 
 ### **Blockchain**
 
