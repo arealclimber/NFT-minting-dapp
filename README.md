@@ -1,5 +1,3 @@
-## **NFT Minting dApp**
-
 ## Tech Stack
 
 ### Frontend
@@ -15,7 +13,7 @@
 -   Hardhat
 -   ERC721A
 
-## To-do
+<!-- ## To-do
 
 ### **Frontend**
 
@@ -25,7 +23,7 @@
 
 -   [x] Deploy with Remix IDE and verify it on RinkebyScan
 -   [ ] Complete test locally
--   [ ] Deploy with Hardhat
+-   [ ] Deploy with Hardhat -->
 
 ## Credit
 
