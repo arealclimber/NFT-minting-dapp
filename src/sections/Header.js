@@ -16,8 +16,14 @@ const Header = () => {
 			path: 'https://testnets.opensea.io/collection/the-dog-fam',
 		},
 		// { label: 'Rarible', path: 'https://testnet.rarible.com/' },
-		{ label: 'Discord', path: 'https://discord.com/' },
-		{ label: 'Twitter', path: 'https://twitter.com/' },
+		{
+			label: 'RinkebyScan',
+			path: 'https://rinkeby.etherscan.io/address/0x38A91753a4064d926074907BB5671F03AFC4539C',
+		},
+		{
+			label: 'GitHub',
+			path: 'https://github.com/arealclimber/NFT-minting-dapp',
+		},
 	];
 
 	const themeChanger = () => {
@@ -62,7 +68,7 @@ const Header = () => {
 	return (
 		<>
 			<header className="h-16 flex items-center justify-center bg-red">
-				<ul className="flex gap-5">
+				<ul className="flex gap-4">
 					{navigations.map((nav, i) => (
 						<div key={i}>
 							<Link href={nav.path}>

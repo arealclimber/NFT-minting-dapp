@@ -16,3 +16,4 @@
 
 -   [heroicons](https://heroicons.com/) for the toggle icon
 -   [next-themes](https://github.com/pacocoursey/next-themes)
+-   hashlip
