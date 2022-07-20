@@ -1,5 +1,9 @@
 import Button from '../components/Button';
 import Connector from '../components/Connector';
+import nftContractAddress from '../config/config';
+import NFT from '../config/NFT.json';
+import { ethers } from 'ethers';
+import axios from 'axios';
 
 const Mint = () => {
 	return (
