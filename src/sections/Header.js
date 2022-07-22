@@ -67,20 +67,22 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="h-16 flex items-center justify-center bg-red">
-				<ul className="flex gap-4">
-					{navigations.map((nav, i) => (
-						<div key={i}>
-							<Link href={nav.path}>
-								<a className="hover:text-blue-300 hover:underline hover:underline-offset-2 ">
-									{nav.label}
-								</a>
-							</Link>
-						</div>
-					))}
-				</ul>
-				{themeChanger()}
-			</header>
+			<div>
+				<header className="h-16 flex items-start justify-center relative">
+					<ul className="flex gap-4 absolute">
+						{navigations.map((nav, i) => (
+							<div key={i}>
+								<Link href={nav.path}>
+									<a className="hover:text-blue-300 hover:underline hover:underline-offset-2">
+										{nav.label}
+									</a>
+								</Link>
+							</div>
+						))}
+					</ul>
+					<div className="flex right-4 absolute">{themeChanger()}</div>
+				</header>
+			</div>
 		</>
 	);
 };
