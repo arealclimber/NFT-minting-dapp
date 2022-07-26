@@ -69,7 +69,7 @@ const Header = () => {
 		<>
 			<div>
 				<header className="h-16 flex items-start justify-center relative">
-					<ul className="flex gap-4 absolute">
+					<ul className="flex flex-auto gap-4 absolute">
 						{navigations.map((nav, i) => (
 							<div key={i}>
 								<Link href={nav.path}>
@@ -80,7 +80,7 @@ const Header = () => {
 							</div>
 						))}
 					</ul>
-					<div className="flex right-4 absolute">{themeChanger()}</div>
+					<div className="flex right-0 absolute">{themeChanger()}</div>
 				</header>
 			</div>
 		</>
