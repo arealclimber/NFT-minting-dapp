@@ -12,6 +12,7 @@ import {
 	useWaitForTransaction,
 } from 'wagmi';
 
+// FIXME: Clicking Sign-in will destroy the layout
 const contractConfig = {
 	addressOrName: nftContractAddress,
 	contractInterface: NFT,
