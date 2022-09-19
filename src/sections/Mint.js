@@ -61,7 +61,9 @@ const Mint = () => {
 			</div>
 
 			<div className="flex flex-col items-center justify-center">
-				<h1 className="text-7xl font-bold font-forHeading">
+
+				<h1 className="text-6xl font-bold font-forHeading md:text-7xl">
+
 					Mint Your <span className="dark:text-blue-200 text-red-900">NFT</span>
 				</h1>
 				<h3 className="text-3xl my-3">Rinkeby Testnet</h3>
