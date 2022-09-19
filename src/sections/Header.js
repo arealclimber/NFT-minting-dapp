@@ -68,8 +68,8 @@ const Header = () => {
 	return (
 		<>
 			<div>
-				<header className="h-16 flex items-start justify-center relative">
-					<ul className="flex flex-auto gap-4 absolute">
+				<header className="h-16 flex items-center justify-center ">
+					<ul className="flex gap-4 ">
 						{navigations.map((nav, i) => (
 							<div key={i}>
 								<Link href={nav.path}>

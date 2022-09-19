@@ -62,17 +62,15 @@ const Mint = () => {
 
 			<div className="flex flex-col items-center justify-center">
 				<h1 className="text-7xl font-bold font-forHeading">
-					Mint Your{' '}
-					<span className="dark:text-blue-200 text-red-900">NFT</span>
+					Mint Your <span className="dark:text-blue-200 text-red-900">NFT</span>
 				</h1>
-				<h3 className="text-4xl my-3">On Rinkeby Testnet</h3>
+				<h3 className="text-3xl my-3">Rinkeby Testnet</h3>
 				<p className="text-gray-600 mb-8">0.01Ξ each</p>
 			</div>
 			<div className="flex flex-col items-center justify-center">
 				<p className="text-2xl my-3">
 					{' '}
-					<span className="text-teal-700">{totalMinted}</span> minted so
-					far!
+					<span className="text-teal-700">{totalMinted}</span> minted so far!
 				</p>
 				{mintError && (
 					<p className="dark:text-red-400 text-red-700">
@@ -80,9 +78,7 @@ const Mint = () => {
 					</p>
 				)}
 				{txError && (
-					<p className="dark:text-red-400 text-red-700">
-						Error: {txError.message}
-					</p>
+					<p className="dark:text-red-400 text-red-700">Error: {txError.message}</p>
 				)}
 
 				{isMinted ? (
