@@ -122,7 +122,7 @@ const Mint = () => {
 
 				<Button
 					onClick={() => mintNFT()}
-					className="text-5xl px-20 py-5 bg-blue-900 text-white mt-20"
+					className="text-5xl px-20 py-5 bg-blue-900 text-white mt-20 hover:bg-blue-800 "
 				>
 					Mint
 				</Button>
