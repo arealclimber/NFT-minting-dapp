@@ -9,7 +9,7 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			forHeading: ['Edu QLD Beginner'],
+			forHeading: ['Caveat'],
 		},
 	},
 	purge: [

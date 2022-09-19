@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Edu+QLD+Beginner:wght@500&family=Fredoka+One&family=M+PLUS+Rounded+1c:wght@300&family=Rubik&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Dancing+Script&family=Dosis:wght@300&family=Edu+QLD+Beginner:wght@500&family=Fredoka+One&family=Gloria+Hallelujah&family=M+PLUS+Rounded+1c:wght@300&family=Nunito:wght@200&family=PT+Sans&family=Press+Start+2P&family=Quicksand&family=Rubik&family=Source+Sans+Pro:wght@200&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +7,7 @@
 	html {
 		font-family: 'Fredoka One';
 	}
-	body {
+	/* body {
 		@apply max-w-2xl mx-auto px-4 dark:bg-red-900;
-	}
+	} */
 }
